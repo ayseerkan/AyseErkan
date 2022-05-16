@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style1.css" />
+    <link rel="stylesheet" href="slick/slick.css" />
+    <link rel="stylesheet" href="slick/slick-theme.css" />
+    <script src="scripts/jquery-3.6.0.min.js"></script>
+    <style>
+      body {
+        background-color: black;
+        color: white;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="header">
+      <div id="global"><a href="#" id="title">GLOBAL NEWS</a></div>
+      <div id="list">
+        <a class="subtitle" href="firstPage.html">Home</a>
+        <a class="subtitle" href="economy.html">Currency in Turkey</a>
+        <a class="subtitle" href="game.html">Game</a>
+        <a class="subtitle" href="signIn.html">Sign in</a>
+      </div>
+    </div>
+
+    <div id="container">
+      <div id="welcome">
+        <h2>Welcome to Global News</h2>
+      </div>
+
+      <div id="date">
+        <script>
+          var today = new Date();
+          document.write(today.toLocaleDateString());
+        </script>
+      </div>
+    </div>
+
+    <div id="slick" style="margin: 70px auto; background: black; width: 70%">
+      <div class="slider-image">
+        <a href="file.html" target="_blank" id="img">
+          <img src="images/file.JPG" />
+          <div class="details">
+            <h1>Explosions rock Kyiv again as Russians rain fire on Ukraine</h1>
+            <p>
+              <br />
+              KYIV, Ukraine (AP) — Russia pounded targets from practically one
+              end of Ukraine to the other Thursday...
+            </p>
+          </div>
+        </a>
+      </div>
+
+      <div class="slider-image">
+        <a href="golf.html" target="_blank" id="img">
+          <img src="images/golf.jpg" />
+          <div class="details">
+            <h1>After a long winter, Regina’s golf season is finally here</h1>
+            <p>
+              <br />
+              Regina’s recent spring snowfall has thankfully removed itself from
+              the grass beneath...
+            </p>
+          </div>
+        </a>
+      </div>
+
+      <div class="slider-image">
+        <a href="kid_fire.html" target="_blank" id="img">
+          <img src="images/kid_fire.JPG" />
+          <div class="details">
+            <h1>Children killed in Kemerovo shopping centre blaze</h1>
+            <p>
+              <br />
+              At least 64 people have died in a fire that engulfed a shopping
+              and...
+            </p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <script src="slick/slick.min.js"></script>
+    <script src="scripts/jquery.animate-shadow.js"></script>
+    <script src="scripts/page1.js"></script>
+  </body>
+</html>

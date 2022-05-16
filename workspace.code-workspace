@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\Term Project\\slick"
+		},
+		{
+			"path": "..\\Term Project\\scripts"
+		},
+		{
+			"path": "..\\Term Project\\images"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "CTIS 255-Term Project"
+	}
+}

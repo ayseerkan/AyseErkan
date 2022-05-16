@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/materialize.min.css" />
+    <style>
+      body {
+        background-color: black;
+      }
+
+      .formheader h1 {
+        text-align: center;
+      }
+
+      .newsheader {
+        font-size: 60px;
+        color: rgb(202, 32, 55);
+        padding-left: 3%;
+      }
+
+      .formheader h1 {
+        color: white;
+        text-align: center;
+        margin-top: 5%;
+        font-size: 40px;
+      }
+
+      .forms {
+        margin: auto;
+        width: 25%;
+        color: white;
+        position: relative;
+      }
+
+      .form_label {
+        font-size: 155%;
+        margin-top: 20%;
+      }
+
+      .form_input {
+        float: right;
+        padding: 8px 15px;
+        box-sizing: border-box;
+      }
+
+      .submit_button {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 20%;
+        width: 60%;
+        font-size: 120%;
+      }
+
+      .submit_button:hover {
+        background-color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="newsheader">
+      <h1>Global News</h1>
+    </div>
+    <div class="formheader">
+      <h1>Please Fill the Form to Sign In</h1>
+      <br />
+    </div>
+
+    <form class="forms">
+      <label class="form_label">First name:</label>
+      <input type="text" class="form_input white-text" /><br />
+      <br /><br />
+
+      <label class="form_label">Last name:</label>
+      <input type="text" class="form_input white-text" /><br /><br /><br />
+
+      <label class="form_label">E-mail:</label>
+      <input type="text" class="form_input white-text" /><br /><br /><br />
+
+      <label class="form_label">Password:</label>
+      <input type="password" class="form_input white-text" /><br />
+
+      <button
+        class="btn waves-effect waves-light red"
+        type="submit"
+        name="action"
+      >
+        Sign in
+      </button>
+    </form>
+
+    <script src="scripts/materialize.min.js"></script>
+  </body>
+</html>

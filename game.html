@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="scripts/jquery-3.6.0.min.js"></script>
+    <style>
+      body {
+        background-color: black;
+      }
+      #all {
+        position: absolute;
+        left: 75%;
+      }
+
+      #redCircle {
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        background-color: red;
+      }
+
+      #blackCircle {
+        width: 53px;
+        height: 53px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        background-color: black;
+      }
+
+      #whiteCircle {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        background-color: white;
+      }
+
+      #circle {
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        background-color: gray;
+      }
+
+      .line {
+        position: absolute;
+        width: 50px;
+        height: 8px;
+        top: 50%;
+        left: 2%;
+        background-color: gray;
+      }
+
+      .arrow {
+        position: absolute;
+        width: 40px;
+        height: 8px;
+        top: 50%;
+        background-color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="all">
+      <div id="redCircle"></div>
+      <div id="blackCircle"></div>
+      <div id="whiteCircle"></div>
+    </div>
+
+    <div id="circle"></div>
+    <div class="line"></div>
+
+    <h1 style="color: red">SCORE: <span id="count"></span></h1>
+
+    <script src="scripts/games.js"></script>
+  </body>
+</html>

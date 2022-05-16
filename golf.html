@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style2.css" />
+    <link rel="stylesheet" href="css/bootnavbar.css" />
+    <style>
+      body {
+        background-color: black;
+        color: white;
+      }
+      .ui-menu {
+        width: 200px;
+        float: right;
+      }
+    </style>
+    <link
+      href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
+      rel="stylesheet"
+    />
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <!-- Javascript -->
+    <script>
+      $(function () {
+        $("#menu").menu({
+          icons: { submenu: "ui-icon-circle-triangle-e" },
+          position: { my: "right top", at: "right-10 top+10" },
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <ul id="menu">
+      <li>
+        <a href="#">MENU</a>
+        <ul>
+          <li><a href="firstPage.html">Home</a></li>
+          <li><a href="economy.html">Currency in Turkey</a></li>
+          <li><a href="game.html">Game</a></li>
+          <li><a href="signIn.html">Sign in</a></li>
+        </ul>
+      </li>
+    </ul>
+    <div class="header1">
+      <h1>After a long winter, Regina’s golf season is finally here</h1>
+      <p>By Troy Charles <span>Posted April 29, 2022 4:44 pm</span></p>
+      <!--to seperate date-->
+    </div>
+
+    <div class="image">
+      <img src="images/golf.jpg" />
+    </div>
+
+    <div class="parag">
+      <p>
+        &nbsp;&nbsp;&nbsp;&nbsp; Regina’s recent spring snowfall has thankfully
+        removed itself from the grass beneath, which means the city is ready to
+        open this year’s golf season. The city’s four municipal golf courses —
+        Tor Hill, Murray, Goulet and Lakeview Par 3 — are all scheduled to open
+        on Saturday, May 7, weather permitting. Starting Friday, April 29,
+        driving ranges at Tor Hill, Murray and Joanne Goulet golf courses will
+        be open. The online tee time booking system will open on Monday, May 2
+        at 7:00 p.m. Tee times may be booked up to five days in advance.
+      </p>
+    </div>
+
+    <script src="scripts/bootnavbar.js"></script>
+  </body>
+</html>

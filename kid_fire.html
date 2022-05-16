@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style2.css" />
+    <link rel="stylesheet" href="css/bootnavbar.css" />
+    <style>
+      body {
+        background-color: black;
+        color: white;
+      }
+      .ui-menu {
+        width: 200px;
+        float: right;
+      }
+    </style>
+    <link
+      href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
+      rel="stylesheet"
+    />
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <!-- Javascript -->
+    <script>
+      $(function () {
+        $("#menu").menu({
+          icons: { submenu: "ui-icon-circle-triangle-e" },
+          position: { my: "right top", at: "right-10 top+10" },
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <ul id="menu">
+      <li>
+        <a href="#">MENU</a>
+        <ul>
+          <li><a href="firstPage.html">Home</a></li>
+          <li> <a href="economy.html">Currency in Turkey</a></li>
+          <li><a href="game.html">Game</a></li>
+          <li><a href="signIn.html">Sign in</a></li>
+        </ul>
+      </li>
+    </ul>
+  </head>
+  <body>
+    <div class="header1">
+      <h1>Russia fire: Children killed in Kemerovo shopping centre blaze</h1>
+      <p>By Troy Charles <span>26 March 2018</span></p>
+      <!--to seperate date-->
+    </div>
+
+    <div class="image">
+      <img src="images/kid_fire.JPG" />
+    </div>
+
+    <div class="parag">
+      <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;At least 64 people have died in a fire that
+        engulfed a shopping and entertainment complex in the Siberian
+        coal-mining city of Kemerovo. Many of the victims are children. Ten
+        people are still listed as missing. The blaze started on an upper floor
+        of the Winter Cherry complex during school holidays. The mall's shops,
+        cinema and bowling alley were packed at the time. Video posted on social
+        media showed people jumping from windows to escape the flames.
+        "According to preliminary information, the roof collapsed in two
+        cinemas," Russia's Investigative Committee said in a statement. The
+        cause of the fire is not yet known. The authorities have launched an
+        investigation.
+      </p>
+    </div>
+
+    <script src="scripts/bootnavbar.js"></script>
+  </body>
+</html>
