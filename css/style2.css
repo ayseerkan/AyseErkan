@@ -1,0 +1,51 @@
+body {
+  width: fit-content;
+}
+
+.header1 {
+  color: rgb(202, 32, 55);
+  padding-left: 1em;
+  padding-top: 1em;
+}
+.header1 p {
+  padding-top: 25px;
+  font-size: 17px;
+}
+.header1 p span {
+  color: rgb(202, 32, 55);
+  padding-left: 40px;
+}
+
+/*for image part */
+.image {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px;
+  padding-top: 50px;
+  border-top: 1px solid #999;
+} /*padding is for arrange the border-top position*/
+
+.image img {
+  display: block;
+  margin: auto;
+}
+
+.parag p {
+  padding-top: 40px;
+  text-align: left;
+  font-family: "FreightText", Georgia, serif;
+  font-weight: 300;
+  line-height: 1.6875rem;
+}
+
+@media screen and (max-width: 790px) {
+  #main {
+    background: #9f9;
+  }
+
+  #menu {
+    width: auto;
+    font-size: 16px;
+  }
+}
